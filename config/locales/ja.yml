@@ -1,0 +1,14 @@
+ja: 
+ activerecord:
+  models:
+  # model名なので、単数で書く
+   user: 'ユーザー'
+   comment: 'コメント'
+   admin_user: '管理者'
+  attributes:
+   user:
+    name: '名前'
+    age: '年齢'
+    address: '住所'
+    created_at: '作成日'
+    updated_at: '更新日'
